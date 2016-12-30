@@ -1,0 +1,23 @@
+div.select{
+	text-align: center;
+	line-height: 40px;
+	width: 150px;
+	background: #eee;
+	&.active{
+		ul{
+			display: block;
+		}
+	}
+	ul{
+		padding: 0;
+		margin: 0;
+		display: none;
+		li{
+			list-style: none;
+		}
+	}
+}
+
+select{
+	display:none;
+}
